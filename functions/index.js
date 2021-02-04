@@ -17,7 +17,7 @@ const broadcast = (priceCurrent) => {
         data : JSON.stringify({
             messages : [{
                 type : "text" ,
-                text : "ตัวอย่าง: " + prices[0]
+                text : "ตัวอย่าง Cherry: " + prices[0]
             }]
         })
     })
